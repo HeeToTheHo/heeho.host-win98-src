@@ -100,10 +100,17 @@
                 <a id="ie-taskbar" href="#">
                     <img id="ie-taskbar-icon" src="img/windows98-icons/png/msie1-4.png">
                 </a>
-                <a id="wm-taskbar" href="#">
+                <a id="wm-taskbar" href="#" onclick="play()">
                     <img id="wm-taskbar-icon" src="img/windows98-icons/png/wm-1.png">
                 </a>
             </div>
         </footer>
+
+        <script>
+        function play() {
+            var audio = new Audio('audio/canyon.mp3');
+            audio.play();
+        }
+        </script>
     </body>
 </html>
