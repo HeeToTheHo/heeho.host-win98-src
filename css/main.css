@@ -41,36 +41,25 @@ p {
     height: 50px;
     width: 50px;
     text-align: center;
-    position: absolute;
-    top: 270px;
-    right: 830px;
 }
 
 .icon-recyclebin {
     height: 50px;
     width: 50px;
     text-align: center;
-    position: absolute;
-    top: 330px;
-    right: 830px;
+    margin-left: 500px;
 }
 
 .icon-documents {
     height: 50px;
     width: 50px;
     text-align: center;
-    position: absolute;
-    top: 400px;
-    right: 830px;
 }
 
 .icon-network-neighborhood {
     height: 50px;
     width: 50px;
     text-align: center;
-    position: absolute;
-    top: 475px;
-    right: 830px;
 }
 
 .icon-label-text {
@@ -78,7 +67,7 @@ p {
 }
 
 #taskbar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 101%;
     margin-left: -10px;
@@ -112,9 +101,6 @@ p {
 
 #wm-taskbar {
     margin-left: 5px;
-}
-
-#wm-taskbar-icon {
 }
 
 #taskbar-base {
