@@ -4,13 +4,12 @@
 /* Win98 CSS */
 @import url('https://unpkg.com/98.css');
 
-html, body {
-    overflow: hidden;
-}
-
-
 body {
     background-color: #01817F;
+    
+    /* Mini-Reset */
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -21,6 +20,10 @@ p {
     color: white;
     font-family: "Pixelated MS Sans Serif";
     font-size: 11px;
+}
+
+main {
+    margin: 10px;
 }
 
 .buttonlink {
@@ -42,13 +45,11 @@ p {
 }
 
 #taskbar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 101%;
-    margin-left: -10px;
-    margin-bottom: 16px;
-    height: 10px;
-    
+    left: 0;
+    /* height: 10px; */
+    width: 100%;
 }
 
 #start-button {
