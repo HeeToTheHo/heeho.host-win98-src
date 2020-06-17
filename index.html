@@ -125,10 +125,15 @@
             </footer>
 
             <script>
-            function play() {
                 var audio = new Audio('audio/canyon.mp3');
-                audio.play();
-            }
+                function play() {
+                    if (audio.paused)
+                        audio.play();
+                    else {
+                        audio.pause();
+                        audio.currentTime = 0;
+                    }
+                }
             </script>
         </main>
     </body>
