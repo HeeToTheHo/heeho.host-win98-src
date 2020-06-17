@@ -20,8 +20,6 @@ a {
 p {
     color: white;
     font-family: "Pixelated MS Sans Serif";
-    /* src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-    src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2"); */
     font-size: 11px;
 }
 
@@ -33,42 +31,14 @@ p {
     text-align: center;
 }
 
-#inline-layer-2-object-1 {
-    float: left;
-}
-
-#inline-layer-2-object-2 {
-    /*padding-left: 10px;*/
-    /* margin-left: 10px;
-    float: left; */
-}
-
-.icon-computer {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-.icon-recyclebin {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-.icon-documents {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-.icon-network-neighborhood {
-    height: 50px;
-    width: 50px;
+.icon-div {
+    width: 10ch;
     text-align: center;
 }
 
 .icon-label-text {
     margin-top: -1px;
+    text-align: center;
 }
 
 #taskbar {
@@ -83,8 +53,6 @@ p {
 
 #start-button {
     font-family: "Pixelated MS Sans Serif Bold";
-    /* src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-    src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2"); */
     text-align: center;
     font-size: 15px;
 }
