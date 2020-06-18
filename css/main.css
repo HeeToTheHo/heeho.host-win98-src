@@ -1,10 +1,15 @@
-html, body {
-    overflow: hidden;
-}
+/* Bootstrap (grid only) */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-grid.min.css');
 
+/* Win98 CSS */
+@import url('https://unpkg.com/98.css');
 
 body {
     background-color: #01817F;
+    
+    /* Mini-Reset */
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -14,9 +19,11 @@ a {
 p {
     color: white;
     font-family: "Pixelated MS Sans Serif";
-    src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-    src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
     font-size: 11px;
+}
+
+main {
+    margin: 10px 0px;
 }
 
 .buttonlink {
@@ -27,59 +34,25 @@ p {
     text-align: center;
 }
 
-#inline-layer-2-object-1 {
-    float: left;
-}
-
-#inline-layer-2-object-2 {
-    /*padding-left: 10px;*/
-    margin-left: 10px;
-    float: left;
-}
-
-.icon-computer {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-.icon-recyclebin {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    margin-left: 500px;
-}
-
-.icon-documents {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-.icon-network-neighborhood {
-    height: 50px;
-    width: 50px;
+.icon-div {
+    width: 10ch;
     text-align: center;
 }
 
 .icon-label-text {
     margin-top: -1px;
+    text-align: center;
 }
 
 #taskbar {
     position: fixed;
     bottom: 0;
-    width: 101%;
-    margin-left: -10px;
-    margin-bottom: 16px;
-    height: 10px;
-    
+    left: 0;
+    width: 100%;
 }
 
 #start-button {
     font-family: "Pixelated MS Sans Serif Bold";
-    src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-    src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
     text-align: center;
     font-size: 15px;
 }
